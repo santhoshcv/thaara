@@ -1,0 +1,31 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+.idea/
+.vscode/
+.DS_Store
+
+# Android
+android/.gradle/
+android/local.properties
+android/key.properties
+android/app/*.jks
+android/app/*.keystore
+*.jks
+
+# Secrets
+.env
+.env.*
+supabase/.env
+supabase/.temp/
+supabase/.branches/
+
+# Deno / Node tooling
+node_modules/
+env.json

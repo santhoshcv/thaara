@@ -1,0 +1,12 @@
+# Only the settings Thaara depends on. Run `supabase init` if you want the
+# full local-development config; keep these values when merging.
+project_id = "thaara"
+
+[auth]
+enable_anonymous_sign_ins = true
+
+[functions.reading]
+verify_jwt = true
+
+[functions.delete-account]
+verify_jwt = true
